@@ -3,15 +3,15 @@
 Example of setting up Tailwind CSS in the LearningFuze Final Project Template
 
 ## Steps to setup Tailwind CSS
-1. Install *postcss* and related dependencies as dev dependencies
+1. Install `postcss` and related dependencies as dev dependencies
     ```
     npm install --save-dev postcss postcss-loader postcss-preset-env
     ```
-1. Install tailwindcss as a dev dependency
+1. Install `tailwindcss` as a dev dependency
     ```
     npm install --save-dev tailwindcss
     ```
-1. Update *webpack.config.js*. Add the `postcss-loader` to the CSS rule in the `rules` array:
+1. Update `webpack.config.js`. Add the `postcss-loader` to the CSS rule in the `rules` array:
     ```JAVASCRIPT
     {
         test: /\.css$/,
