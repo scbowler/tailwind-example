@@ -2,6 +2,8 @@
 
 Example of setting up Tailwind CSS in the LearningFuze Final Project Template
 
+## [tailwindcss docs](https://tailwindcss.com/)
+
 ## Steps to setup Tailwind CSS
 1. Install `postcss` and related dependencies as dev dependencies
     ```
